@@ -7,3 +7,8 @@ eureka:
   instance:
     prefer-ip-address: true
    
+   
+okta:
+  oauth2:
+    issuer: https://dev-18847879.okta.com/oauth2/default
+    audience: api://default
